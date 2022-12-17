@@ -8,3 +8,4 @@ if (firstSide == secondSide || firstSide == thirdSide || secondSide == thirdSide
 } else {
     console.log("It is not isosceles");
 }
+console.log(6!=6);
