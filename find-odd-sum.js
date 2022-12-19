@@ -9,7 +9,6 @@ function findOddNumbers(numbers){
             oddNumbers.push(element);
             console.log(index,element);
         }
-        
     }
 }
 const myNumbers = [1,3,5,7,8,9];
