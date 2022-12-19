@@ -27,3 +27,14 @@ function make_avg(numbers){
 const numbers = [120.6,20.60,30.33];
 const averageNumber = make_avg(numbers).toFixed(2);
 console.log(averageNumber);
+
+// Write a function called odd_even() which takes an integer value and tells whether this value is even or odd.
+function even_odd(number){
+    if (number % 2 == 0) {
+        console.log(number, "is an even number");
+    } else {
+        console.log(number, "is an odd number");
+    }
+    return number;
+}
+even_odd(1169);
