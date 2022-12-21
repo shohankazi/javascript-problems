@@ -7,9 +7,9 @@ const phones = [
     {name:'nokia',camera: 15,storage:'32 gb',price:44000,color:'silver'},
     {name:'HTC',camera: 16,storage:'32 gb',price:62000,color:'silver'},
 ];
-function highestPhone(phones){
+function highestPhone(phones) {
     let highest = phones[0];
-    for(let i = 0; i < phones.length; i++){
+    for (let i = 0; i < phones.length; i++) {
         const phone = phones[i];
         if (phone.price > highest.price) {
             highest = phone;
@@ -17,5 +17,5 @@ function highestPhone(phones){
     }
     return highest;
 }
-const mySelection = highestPhone(phones);
-console.log(mySelection);
+const myChoice = highestPhone(phones);
+console.log(myChoice);
